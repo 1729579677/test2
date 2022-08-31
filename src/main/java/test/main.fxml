@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.Controller">
+   <children>
+      <Button fx:id="checkBtn" layoutX="427.0" layoutY="188.0" mnemonicParsing="false" onAction="#check" text="获取验证码" />
+      <Label layoutX="102.0" layoutY="121.0" text="请输入邮箱" />
+      <Label layoutX="102.0" layoutY="192.0" text="输入验证码" />
+      <Button fx:id="loginBtn" layoutX="273.0" layoutY="273.0" mnemonicParsing="false" onAction="#login" text="登录" />
+      <TextField layoutX="213.0" layoutY="117.0" promptText="请输入邮箱" />
+      <TextField layoutX="213.0" layoutY="188.0" promptText="请输入验证码" />
+   </children>
+</AnchorPane>
